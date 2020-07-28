@@ -1,0 +1,30 @@
+ <html> 
+    <head>
+        <title>My Reminders</title>
+        <link rel="stylesheet" href="style.css">
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQv_a-_H3nkn1VWn9xKbmgUssykXkpqLw"></script>
+        <script src="main.js" async ></script>
+    </head>
+    <body>
+        <div class="main">
+            <h1>TO-DO Task REMINDERS</h1>
+            <div class="inputs">
+				<h2> Add A Reminder</h2>
+                <input type="text" id="nameField"><button id="addTask">Add</button>
+				<br><br>
+
+			<button id="showMyLocation">Show My Location</button>
+			<br>
+			<div id="maps" class="maps"></div>
+			<br>
+			<a href="#" id="openmap">No Value</a> 
+            </div>
+			<div class="listOfTasks">
+			<h3>Tasks</h3>
+				<hr/>
+				<div id="tasks">
+				</div>
+			</div>
+        </div>
+    </body>
+</html>
